@@ -1,0 +1,111 @@
+.card img{
+    width: 120px;
+    height: 130px;
+    border-radius: 30px;
+}
+
+.card{
+    height: 220px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 3px;
+    margin-right: 20px;
+    margin-top: 25px;
+    background: rgb(252, 252, 252);
+}
+
+.card:hover{
+    box-shadow: 0px 0px 15px 0px rgba(255, 121, 72, 0.945);
+    cursor: pointer;
+}
+
+.card h3{
+    margin-top: 6px;
+    margin-bottom: 7px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.card p{
+    position: relative;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    left: 8%;
+    border-radius: 10px;
+    background-color: rgba(255, 121, 72, 0.945) ;
+}
+
+.card div{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 8%;
+    top: 10px;
+    font-size: 12px;
+    font-family: "Press Start 2P", cursive;
+}
+
+.type[value="grass"]{
+    background-color: #78C850;
+}
+
+.type[value="fire"]{
+    background-color: #F08030;
+}
+
+.type[value="water"]{
+    background-color: #6890F0;
+}
+
+.type[value="bug"]{
+    background-color: #A8B820;
+}
+
+.type[value="normal"]{
+    background-color: #A8A878;
+}
+
+.type[value="poison"]{
+    background-color: #A040A0;
+}
+
+.type[value="electric"]{
+    background-color: #F8D030;
+}
+
+.type[value="ground"]{
+    background-color: #E0C068;
+}
+
+.type[value="fairy"]{
+    background-color: #EE99AC;
+}
+
+.type[value="fighting"]{
+    background-color: #C03028;
+}
+
+.type[value="psychic"]{
+    background-color: #F85888;
+}
+
+.type[value="rock"]{
+    background-color: #B8A038;
+}
+
+.type[value="ghost"]{
+    background-color: #705898;
+}
+
+.type[value="ice"]{
+    background-color: #98D8D8;
+}
+
+.type[value="dragon"]{
+    background-color: #7038F8;
+}

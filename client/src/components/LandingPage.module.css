@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.landingContainer{
+    background: url(../imgs/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.landingContainer Link{
+    text-decoration: none;
+}
+
+.title{
+    font-family: "Press Start 2P", sans-serif;
+    letter-spacing: 20px;
+    font-size: 80px;
+    position: relative;
+    top: 8%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.link{
+    position: relative;
+    top: 75%;
+    width: 500px;
+    height: 100px;
+    font-family: "Anton", sans-serif;
+    font-size: 55px;
+    color: orangered;
+    background-color: black;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.link:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px 3px rgb(255, 111, 0); 
+}

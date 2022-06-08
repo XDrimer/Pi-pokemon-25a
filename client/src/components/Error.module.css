@@ -1,0 +1,25 @@
+.notFoundContainer{
+position: relative;
+top: 0%;
+left: 0%;
+background-color: black;
+height: 707px;
+width: 100%;
+}
+
+.notFound{
+    color:  white;
+}
+
+.notFound img{
+    position: relative;
+    top: 80px;
+    height: 400px;
+    width: 600px;
+}
+
+.notFound h1{
+    position: relative;
+    top: 100px;
+    font-family: "Press Start 2P", cursive;
+}

@@ -1,0 +1,82 @@
+body{
+    background: black;
+}
+
+.page{
+    background-color: black;
+    z-index: 1;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Press Start 2P", cursive;
+    height: 60px;
+    background-color: rgb(255, 105, 50);
+    border-radius: 0 0 20px 20px;
+}
+
+.navbar h3{
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.links{
+    text-decoration: none;
+}
+
+.filters{
+    position: relative;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+}
+
+.filter{
+    position: relative;
+    top: 8px;
+    border-radius: 8px;
+    margin-left: 20px;
+    height: 25px;
+    width: 120px;
+    font-family: "Press Start 2P",cursive;
+    font-size: 15px;
+    text-align: center;
+}
+
+.filters button{
+    position: relative;
+    top: 8px;
+    margin-left: 180px;
+    font-family: "Press Start 2P",cursive;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.filters button:hover{
+    box-shadow: 0px 0px 15px 0px #e1e1e1;
+    cursor: pointer;
+}
+
+.pokemons{
+    display: flex;
+    justify-content: center;
+}
+
+.pokemonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 73.8vh;
+    width: 78vw;
+}
+
+.linkcard{
+    text-decoration: none;
+}
